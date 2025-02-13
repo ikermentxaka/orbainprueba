@@ -1,0 +1,78 @@
+
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/Product Sans Regular.ttf') format('ttf');
+	src: url('fonts/Product Sans Bold.ttf') format('ttf');
+  }
+
+
+
+*{
+	margin: 0px;
+	font-family: "Product Sans Regular";
+}	
+
+body {
+	padding: 0px;
+}
+/* los id se nombran con #id y los class se nombran con .class*/
+#textosup{
+	padding: 25px;
+}
+#arribaso{
+ width: 100%; height:60px; background-color: black;
+}
+.imgtxiki{
+	width:30px;
+	filter: invert(100%);
+	/*Se pone punto en vez de # porque necesita un selector de clase*/
+}
+.logorb{
+	width:100px;
+	filter: invert(100%);
+}
+
+#introduccion{
+	color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between; /* Separa los elementos */
+    align-items: center; /* Alinea verticalmente */
+    padding: 10px;
+	margin: 0px;
+    background-color: black;
+    color: black;
+}
+
+.izq {
+    font-size: 20px;
+	padding-left: 20px;
+}
+
+.dcha {
+   width: 20px;
+   padding-right: 50px;
+   
+}
+.id {
+	margin: 20px;
+}
+.eleh {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Espaciado uniforme entre los elementos */
+    align-items: center; /* Centra verticalmente */
+    gap: 20px; /* Espacio entre los divs */
+}
+
+.eleh div {
+    flex: 1; /* Hace que los divs tengan el mismo ancho */
+    text-align: center; /* Centra la imagen dentro del div */
+}
+
+.eleh img {
+    width: 80%; /* Ajusta el tamaño de la imagen */
+    max-width: 200px; /* Límite máximo de tamaño */
+    height: auto; /* Mantiene la proporción */
+}
